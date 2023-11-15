@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+
+website:
+  title: "MonProjet"
+  page-navigation: true
+  repo-url: https://eddabbah.github.io/monProjet/
+  repo-actions: [source, issue]
+  
+  navbar:
+    tools: 
+      - icon: github
+        href: https://eddabbah.github.io/monProjet/
+        text: GitHub
+    left:
+      - href: projetmeteo.qmd
+        text: Accueil
+         
+execute:
+  echo: false  
+
+format:
+  html:
+    theme: Architect
+jupyter: python3
