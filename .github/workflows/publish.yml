@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *" # Mise à jourchaque jour 
+    - cron: "20 10 * * *" # Mise à jourchaque jour 
   workflow_dispatch:
   push:
     branches: ["main"]
